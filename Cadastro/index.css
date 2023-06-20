@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: FreeMono, monospace;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    opacity: 80%;
+
+}
+
+body {
+    background-image: linear-gradient(to right, #ffff9e, #ADD8E6 );
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img {
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    width: 150px;
+}
+
+.caixa {
+    width: 550px;
+    height: 700px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 20px;
+   flex-direction: column;
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    
+  }
+  
+  .caixa h1 {
+    color: #333;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: FreeMono, monospace;
+  }
+  
+  .caixa p {
+    color: #666;
+    margin-top: 5px;
+    font-family: FreeMono, monospace;
+  }
+
+  .caixa textarea {
+    width: 80%;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    resize: none;
+    
+    
+}
+
+.caixa .container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  button {
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    font-family: FreeMono, monospace;
+    background-color: bisque;
+    color: black;
+  }
+  
+  .caixa .container p{
+
+    color: blue;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #ADD8E6;
+    color: #333;
+    transition: 0.3s;
+}
